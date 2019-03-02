@@ -12,10 +12,12 @@ my_things = {"dog":"blackie", "friend":"joe", "country":"USA"}
 
 print(my_things["dog"])
 
-# We can add new element or overwirte them with a simpel declaration
+# We can add new element or overwirte them with a simple declaration
 
 my_things["friend"] = "steven"
 my_things["favorite_food"] = "pasta"
 
 my_things = {"dog":"blackie", "friend":"joe", "country":"USA", "languages":["english","spanish"]}
 
+# Remove elements from a dictionary by using the del function
+del my_things["friend"]
