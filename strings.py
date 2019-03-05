@@ -41,7 +41,7 @@ print(hello.replace("hello", "hellohellohellohello"))
 print(hello[0])
 print(hello[-1])
 print(hello[3])
-print(hello[3:2])
+print(hello[3:-1])
 
 # Lets remember slicing as it is used with other data types we will learn later on in the book
 
@@ -84,3 +84,11 @@ My name is david.
 Welcome to cross entropy.
 """
 print(longstring)
+
+# Here is an example of string insertion
+hello = "hello"
+name = "David"
+
+print("%s %s" % (hello, name))
+
+print("hello %s" % name)

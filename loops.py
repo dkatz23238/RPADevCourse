@@ -5,7 +5,7 @@
 mylist = ["John", "Bob", "Julie", "Anne"]
 
 for name in mylist:
-    print("%s's is this long:" % name)
+    print("%s's name is this long:" % name)
     print(len(name))
 
 
@@ -24,9 +24,8 @@ while (n <= 5):
     print(n)
     n = n + 1
 
-# Be careful because while loops can become infinite ig we dont terminate them
+# Be careful because while loops can become infinite if we dont terminate them
 n = 0
-
 while (n <= 5):
     print(n)
 
@@ -36,15 +35,12 @@ while (n <= 5):
 # The range function returns an ordered series of intergers from 0 to the arguments passed -1
 
 mylist = range(20)
-for number in mylist:
-    print(number)
-    if number > 15:
-        break
 
-for number in range(20):
+for number in mylist:
     print(number)
     if number > 15:
         break
 
 # Hold control - c to interupt any python programming
 
+# Given this list create a loop that will print an element in the the list if it is a string and print the value multiplied by two if its an int

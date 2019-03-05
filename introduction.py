@@ -6,6 +6,7 @@
 
 print("Hello RPA developer!")
 
+
 # Executing different expressions will result in the execution of them in the order you wrote them
 print("A")
 print("B")
@@ -70,7 +71,7 @@ result_of_comparison = (the_number_one == the_number_two)
 # The results of a comparison operator will always be a boolean value. 
 # We can feed this boolean value into flow control statements.
 
-if (the_number_one == the_number_two):
+if (result_of_comparison):
     print("Do this specific thing")
 else:
     print("Do this other specific thing")
@@ -104,6 +105,7 @@ employee2 = "steven"
 
 # Logical Operators
 
+# We can also use & , | for and , or
 # Boolean operators: and and or
 print(True and True)
 print(False or True)
@@ -113,3 +115,4 @@ if ( (employee1 == "bob") or  (employee2 == "bob")):
     print("Someone is called bob!")
 else:
     print("Can somebody please get bob?")
+
