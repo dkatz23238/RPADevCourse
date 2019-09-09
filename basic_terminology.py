@@ -18,7 +18,6 @@
 
 # indentation
 
-# sudo code
 
 # program
 
